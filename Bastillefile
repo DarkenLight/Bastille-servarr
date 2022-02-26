@@ -1,0 +1,10 @@
+PKG sonarr
+PKG radarr
+PKG lidarr
+PKG prowlarr
+PKG nginx
+SYSRC radarr_enable=TRUE
+SYSRC radarr_user="radarr"
+SYSRC radarr_group="radarr"
+SYSRC radarr_data_dir="DIR_YOU_WANT"
+SERVICE radarr start
