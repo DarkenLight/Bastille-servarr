@@ -1,6 +1,13 @@
 PKG sonarr radarr lidarr prowlarr nginx
-SYSRC radarr_enable=TRUE
-SYSRC radarr_user="radarr"
-SYSRC radarr_group="radarr"
-SYSRC radarr_data_dir="DIR_YOU_WANT"
+SYSRC radarr_enable="YES"
+SYSRC sonarr_enable="YES"
+SYSRC lidarr_enable="YES"
+SYSRC prowlarr_enable="YES"
+SERVICE nginx_enable="YES"
 SERVICE radarr start
+SERVICE sonarr start
+SERVICE lidarr start
+SERVICE prowlarr start
+CP nginx.conf /usr/local/etc/nginx/
+CP subfolders-enabled /usr/local/etc/nginx/
+SERVICE nginx start
