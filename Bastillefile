@@ -1,8 +1,4 @@
-PKG sonarr
-PKG radarr
-PKG lidarr
-PKG prowlarr
-PKG nginx
+PKG sonarr radarr lidarr prowlarr nginx
 SYSRC radarr_enable=TRUE
 SYSRC radarr_user="radarr"
 SYSRC radarr_group="radarr"
