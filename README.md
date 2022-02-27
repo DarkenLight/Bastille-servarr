@@ -17,6 +17,7 @@ Installation overview using XigmanasNAS Bastille Extension Gui
 - [ ] Create a thick container.
 - [x] Enable VNET(VIMAGE).
 - [ ] Create an empty container.
+- [ ] Create a Linux container.
 - [x] Start after creation.
 - [x] Auto start on boot.
 
