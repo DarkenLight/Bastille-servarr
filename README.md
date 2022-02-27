@@ -29,8 +29,8 @@ Installation overview using XigmanasNAS Bastille Extension Gui
 
 10. Add This two lines
 - allow.mlock;
-- allow.raw_sockets;
-  > allow_raw_sockets is helpful for troubleshooting (e.g. ping, traceroute) but is not a requirement.
+- allow.raw_sockets; 
+  > This is helpful for troubleshooting (e.g. ping, traceroute) but is not a requirement.
 11. Click Save
 
 12. Restart the jail.
