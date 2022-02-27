@@ -35,7 +35,7 @@ Installation overview using XigmanasNAS Bastille Extension Gui
 12. Restart the jail.
 
 
-## Applying the servarr template to the newly cheated jail
+## Applying the servarr template to the newly created jail
 
 1. SSH to your Xigmanas Server
 
