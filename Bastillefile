@@ -10,4 +10,6 @@ SERVICE lidarr start
 SERVICE prowlarr start
 CP nginx.conf /usr/local/etc/nginx/
 CP subfolders-enabled /usr/local/etc/nginx/
+CP setURLBase.sh /root
+CMD setURLBase.sh
 SERVICE nginx start
