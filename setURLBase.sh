@@ -39,3 +39,9 @@ if [ "${prowlarr_enable}" == "YES" ]; then
 else
 	echo "prowlarr Not Enabled"
 fi
+
+if [ "${readerr_enable}" == "YES" ]; then
+	set_UrlBase readerr
+else
+	echo "readerr Not Enabled"
+fi
