@@ -6,6 +6,8 @@ function set_UrlBase()
 {
 service_name=$1
 service_home="/usr/local"
+service "${service_name}" restart
+service "${service_name}" stop
 echo "${service_name} is installed and enabled"
 # this command will change the URL Base from "/" to $service_name
 echo "Changing the URL Base of $service_name , from / to /$service_name"
@@ -14,6 +16,7 @@ sed -i'.original' -e "s/<UrlBase></<UrlBase>${service_name}</g" ${service_home}/
 echo "setting permission to $service_home/$service_name/config.xml"
 echo
 chown -R ${service_name}:${service_name} ${service_home}/${service_name}/config.xml
+service "${service_name}" start
 }
 
 if [ "${lidarr_enable}" == "YES" ]; then
