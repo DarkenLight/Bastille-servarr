@@ -47,4 +47,4 @@ Installation overview using XigmanasNAS Bastille Extension Gui
 `bastille template servarr DarkenLight/Bastille-servarr`
 
 
-## Thanks to [WiKiArr](https://wiki.servarr.com) for detailed instructions.
+### Thanks to [WiKiArr](https://wiki.servarr.com) for detailed instructions.
