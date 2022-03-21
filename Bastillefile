@@ -1,4 +1,9 @@
-PKG sonarr radarr lidarr readarr prowlarr nginx bash
+PKG sonarr
+PKG radarr
+PKG lidarr
+PKG readarr
+PKG prowlarr
+PKG nginx bash nano
 SYSRC radarr_enable="YES"
 SYSRC sonarr_enable="YES"
 SYSRC lidarr_enable="YES"
