@@ -1,12 +1,14 @@
-PKG sonarr radarr lidarr prowlarr nginx bash
+PKG sonarr radarr lidarr readarr prowlarr nginx bash
 SYSRC radarr_enable="YES"
 SYSRC sonarr_enable="YES"
 SYSRC lidarr_enable="YES"
+SYSRC readarr_enable="YES"
 SYSRC prowlarr_enable="YES"
 SYSRC nginx_enable="YES"
 SERVICE radarr start
 SERVICE sonarr start
 SERVICE lidarr start
+SERVICE readarr start
 SERVICE prowlarr start
 CP nginx.conf /usr/local/etc/nginx/
 CP subfolders-enabled /usr/local/etc/nginx/
