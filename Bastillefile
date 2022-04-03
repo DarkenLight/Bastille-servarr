@@ -1,19 +1,19 @@
 PKG sonarr
 PKG radarr
 PKG lidarr
-PKG readarr
+# PKG readarr
 PKG prowlarr
 PKG nginx bash nano
 SYSRC radarr_enable="YES"
 SYSRC sonarr_enable="YES"
 SYSRC lidarr_enable="YES"
-SYSRC readarr_enable="YES"
+# SYSRC readarr_enable="YES"
 SYSRC prowlarr_enable="YES"
 SYSRC nginx_enable="YES"
 SERVICE radarr start
 SERVICE sonarr start
 SERVICE lidarr start
-SERVICE readarr start
+# SERVICE readarr start
 SERVICE prowlarr start
 SERVICE nginx start
 CP nginx.conf /usr/local/etc/nginx/
