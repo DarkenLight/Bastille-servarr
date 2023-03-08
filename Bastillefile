@@ -21,6 +21,7 @@ SERVICE prowlarr start
 SERVICE nginx start
 CP nginx.conf /usr/local/etc/nginx/
 CP subfolders-enabled /usr/local/etc/nginx/
+CP index.html /usr/local/www/public_html/
 CP setURLBase.sh /root
 CMD chmod +x setURLBase.sh && ./setURLBase.sh
 SERVICE nginx restart
