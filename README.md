@@ -18,14 +18,6 @@ Installation overview using XigmanasNAS Bastille Extension Gui
 	- [x] Auto start on boot.
 
 7. Click Create
-8. Open the jail configaration Menu, Select Advance> Execute.
-9. Open and edit the jail.conf for servarr jail using the GUI.
-10. Add This two lines
-	- allow.mlock;
-	- allow.raw_sockets;
-	> This is helpful for troubleshooting (e.g. ping, traceroute) but is not a requirement.
-11. Click Save
-12. Restart the jail.
 
 ## Applying the servarr template to the newly created jail
 
